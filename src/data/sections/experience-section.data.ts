@@ -4,8 +4,11 @@ import { facebook, github, instagram, linkedin, twitter, website } from '../help
 import {
   chakraUi,
   eslint,
+  expressJs,
   firebase,
+  javascript,
   nextJs,
+  nodeJs,
   nx,
   pnpm,
   react,
@@ -13,6 +16,13 @@ import {
   tailwindCss,
   typescript,
   vue,
+  java,
+  springBoot,
+  redux,
+  seo,
+  postgreSql,
+  docker,
+  scss,
 } from '../helpers/skills';
 
 const experienceSectionData = {
@@ -24,59 +34,52 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Senior front-end developer',
-      company: 'Google',
-      image: import('@/assets/logos/google-logo.jpg'),
-      dates: [new Date('2020-02'), null],
+      role: 'Full Stack Software Developer',
+      company: 'Clienter.ai',
+      image: import('@/assets/logos/clienter-logo.jpg'),
+      dates: [new Date('2024-06'), new Date('2025-03')],
       description: `
-        - In tristique vulputate augue vel egestas.
-        - Quisque ac imperdiet tortor, at lacinia ex.
-        - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
-        - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
-        - Nunc malesuada leo et est iaculis facilisis.
-        - Fusce eu urna ut magna malesuada fringilla.
+        - Developed numerous full-stack features from the ground up using Next.js, TypeScript, and Spring Boot Java.
+        - Integrated multiple third-party APIs and developed custom API wrappers.
+        - Translated many figma designs into pixel-perfect web pages, with focus on debugging and resolving UI inconsistencies.
+        - Built a responsive and interactive landing page from scratch, including complex animations.
+        - Implemented comprehensive SEO optimization strategies from scratch, significantly improving site visibility.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), nextJs(), typescript(), nx(), firebase()],
+        tags: [nextJs(), typescript(), java(), springBoot(), reactQuery(), docker(), pnpm(), postgreSql(), seo()],
       },
-      links: [facebook({ url: '#' }), linkedin({ url: '#' })],
+      links: [website({ url: 'https://clienter.ai' })],
     },
     {
-      role: 'React.js developer',
-      company: 'Facebook',
-      image: import('@/assets/logos/facebook-logo.png'),
-      dates: [new Date('2019-04'), new Date('2020-02')],
+      role: 'Open Source Contributor',
+      company: 'Processing Foundation',
+      image: import('@/assets/logos/processing-foundation-logo.png'),
+      dates: [new Date('2023-12'), new Date('2024-03')],
       description: `
-        - Aenean eget ultricies felis. Pellentesque dictum massa ut tellus eleifend, sed posuere massa mattis.
-        - Ut posuere massa lacus, eleifend molestie tortor auctor vel.
-        - Sed sed sollicitudin eros, id ultricies mi. Aliquam sodales elit vel ante tempor, non vehicula nibh facilisis.
-        - Cras feugiat ultricies maximus. Aliquam tristique ex odio, ac semper urna accumsan a.
+        - Created and submitted over 10 pull requests to the <a target="_blank"  href="https://github.com/processing/p5.js-web-editor"><u>p5.js web editor</u></a> repository, with 4 successfully merged into production.
+        - Developed a complete robust feature from scratch about making the sketch private ensuring the pixel-perfect design and functionality. Check it out <a target="_blank"  href="https://github.com/processing/p5.js-web-editor/pull/3034"><u>here</u></a>.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), reactQuery(), chakraUi(), eslint()],
+        tags: [javascript(), react(), redux(), nodeJs(), expressJs(), scss()],
       },
-      links: [website({ url: '#' }), instagram({ url: '#' })],
+      links: [github({ url: 'https://github.com/processing/p5.js-web-editor/pull/3034' })],
     },
     {
-      role: 'Junior front-end developer',
-      company: 'GitLab',
-      image: import('@/assets/logos/gitlab-logo.png'),
-      dates: [new Date('2016-09'), new Date('2019-04')],
+      role: 'WebDev Lead',
+      company: 'Google Developers Student Club',
+      image: import('@/assets/logos/gdsc-logo.jpg'),
+      dates: [new Date('2023-08'), new Date('2024-03')],
       description: `
-        Nulla volutpat justo ante, rhoncus posuere massa egestas in:
-
-        - Quisque pellentesque, dolor nec sollicitudin iaculis, sem velit consequat ligula, eget tempus ligula leo et est.
-        - Maecenas ut elit sit amet nibh maximus condimentum in nec lorem. Pellentesque tincidunt odio vel leo suscipit, in interdum mi gravida.
-
-        Donec non vulputate augue 🤓
+        - Organized and conducted multiple technical workshops on web development.
+        - Led the planning and execution of an inter-college hackathon with 200+ participants and an open city level hackathon attracting more than 400 participants.
       `,
       tagsList: {
-        title: 'Technologies',
-        tags: [vue(), tailwindCss(), pnpm()],
+        title: '',
+        tags: [],
       },
-      links: [twitter({ url: '#' }), github({ url: '#' })],
+      links: [website({ url: 'https://gdsc-atmiyauniversity.vercel.app' })],
     },
   ],
 } as const satisfies ReadonlyDeep<ExperienceSection>;

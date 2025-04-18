@@ -10,30 +10,29 @@ const mainSectionData = {
     visible: true,
   },
   image: import('@/assets/my-image.jpeg'),
-  fullName: 'Mark Freeman',
-  role: 'Senior React Developer',
+  fullName: 'Vivek Bopaliya',
+  role: 'Jr. Full Stack Developer',
   details: [
-    { label: 'Phone', value: '605 475 6961', url: 'tel:605 475 6961' },
-    { label: 'Email', value: 'mark.freeman.dev@gmail.com', url: 'mailto:mark.freeman.dev@gmail.com' },
-    { label: 'From', value: 'Warsaw, Poland' },
-    { label: 'Salary range', value: '18 000 - 25 000 PLN' },
+    { label: 'Email', value: 'vivekpatel1nov@gmail.com', url: 'mailto:vivekpatel1nov@gmail.com' },
+    { label: 'From', value: 'Rajkot, Gujarat (India)' },
   ],
   pdfDetails: [
-    { label: 'Phone', value: '605 475 6961' },
-    { label: 'Email', value: 'mark.freeman.dev@gmail.com' },
-    { label: 'LinkedIn', value: '/in/mark-freeman', url: 'https://linkedin.com' },
-    { label: 'GitHub', value: '/mark-freeman', url: 'https://github.com' },
-    { label: 'Website', value: 'mark-freeman-personal-website.com', url: '/', fullRow: true },
+    { label: 'Email', value: 'vivekpatel1nov@gmail.com' },
+    { label: 'LinkedIn', value: '/in/vivek-bopaliya', url: 'https://www.linkedin.com/in/vivek-bopaliya' },
+    { label: 'GitHub', value: '/vivekbopaliya', url: 'https://github.com/vivekbopaliya' },
   ],
   description:
-    'Lorem ipsum dolor sit amet, consectetur **adipiscing elit**. In sodales ac dui at *vestibulum*. In condimentum metus id dui tincidunt, in blandit mi [vehicula](/). Nulla lacinia, erat sit amet elementum vulputate, lectus mauris volutpat mi, vitae accumsan metus elit ut nunc. Vestibulum lacinia enim eget eros fermentum scelerisque. Proin augue leo, posuere ut imperdiet vitae, fermentum eu ipsum. Sed sed neque sagittis, posuere urna nec, commodo leo. Pellentesque posuere justo vitae massa volutpat maximus.',
-  tags: [{ name: 'Open for freelance' }, { name: 'Available for mentoring' }, { name: 'Working on side project' }],
+    "Hello and welcome to my portfolio website! I'm a 20 years old developer who loves coding and building projects with different technologies. I thoroughly enjoy working on various projects and I am always eager to explore new opportunities. If you are seeking a valuable addition to your team or a skilled and thoughtful freelancer, Feel free to browse through my work and do not hesitate to get in touch on any platform!",
+  tags: [{ name: 'Available for Freelance Projects' }, { name: 'Open for Jr. Developer Roles' }],
   action: {
     label: 'Download CV',
     url: '/cv.pdf',
-    downloadedFileName: 'CV-Mark_Freeman.pdf',
+    downloadedFileName: 'CV-VivekBopaliya.pdf',
   },
-  links: [facebook({ url: '#' }), github({ url: '#' }), linkedin({ url: '#' }), twitter({ url: '#' })],
+  links: [
+    github({ url: 'https://github.com/vivekbopaliya' }),
+    linkedin({ url: 'https://www.linkedin.com/in/vivek-bopaliya' }),
+  ],
 } as const satisfies ReadonlyDeep<MainSection>;
 
 export default mainSectionData;

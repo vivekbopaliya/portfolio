@@ -55,7 +55,6 @@ export type Sections = {
   /**
    * [WEB] Recommendations from your previous employers and people you worked with.
    */
-  testimonials: TestimonialsSection;
 
   /**
    * [WEB] List of sources you use to gain knowledge and inspiration.

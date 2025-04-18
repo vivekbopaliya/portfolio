@@ -24,7 +24,7 @@ const { config, books, medias, people, videos } = Astro.props;
     <FavoritesSubSection minTileWidth={204} subSection={videos}>
       {videos?.data.map((video) => <VideoTile {...video} />)}
     </FavoritesSubSection>
-    <FavoritesSubSection minTileWidth={120} subSection={medias}>
+    <FavoritesSubSection minTileWidth={150} subSection={medias}>
       {medias?.data.map((media) => <MediaTile {...media} />)}
     </FavoritesSubSection>
   </div>

@@ -164,3 +164,142 @@ export const vue = createSkillFactory({
   iconColor: '#4FC08D',
   url: 'https://vuejs.org/',
 });
+
+// Intermediate proficiency skills
+
+export const java = createSkillFactory({
+  name: 'Java',
+  icon: 'simple-icons:java',
+  iconColor: '#007396',
+  url: 'https://www.java.com/',
+});
+
+export const javascript = createSkillFactory({
+  name: 'JavaScript',
+  icon: 'simple-icons:javascript',
+  iconColor: '#F7DF1E',
+  url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+});
+
+export const nodeJs = createSkillFactory({
+  name: 'Node.js',
+  icon: 'simple-icons:nodedotjs',
+  iconColor: '#339933',
+  url: 'https://nodejs.org/',
+});
+
+export const expressJs = createSkillFactory({
+  name: 'Express.js',
+  icon: 'simple-icons:express',
+  iconColor: '#000000',
+  url: 'https://expressjs.com/',
+});
+
+export const python = createSkillFactory({
+  name: 'Python',
+  icon: 'simple-icons:python',
+  iconColor: '#3776AB',
+  url: 'https://www.python.org/',
+});
+
+export const sql = createSkillFactory({
+  name: 'SQL',
+  icon: 'simple-icons:microsoftsqlserver',
+  iconColor: '#CC2927',
+  url: 'https://www.w3schools.com/sql/',
+});
+
+export const testing = createSkillFactory({
+  name: 'Testing',
+  icon: 'simple-icons:testinglibrary',
+  iconColor: '#E33332',
+  url: 'https://testing-library.com/',
+});
+
+// Beginner proficiency skills
+
+export const c = createSkillFactory({
+  name: 'C',
+  icon: 'simple-icons:c',
+  iconColor: '#A8B9CC',
+  url: 'https://en.cppreference.com/w/c',
+});
+
+export const rust = createSkillFactory({
+  name: 'Rust',
+  icon: 'simple-icons:rust',
+  iconColor: '#000000',
+  url: 'https://www.rust-lang.org/',
+});
+
+export const aws = createSkillFactory({
+  name: 'AWS',
+  icon: 'simple-icons:awslambda',
+  iconColor: '#232F3E',
+  url: 'https://aws.amazon.com/',
+});
+
+export const llmModels = createSkillFactory({
+  name: 'LLM Models',
+  icon: 'simple-icons:openai',
+  iconColor: '#412991',
+  url: 'https://openai.com/',
+});
+
+// Additional technologies needed for experience section
+
+export const springBoot = createSkillFactory({
+  name: 'Spring Boot',
+  icon: 'simple-icons:springboot',
+  iconColor: '#6DB33F',
+  url: 'https://spring.io/projects/spring-boot',
+});
+
+export const redux = createSkillFactory({
+  name: 'Redux',
+  icon: 'simple-icons:redux',
+  iconColor: '#764ABC',
+  url: 'https://redux.js.org/',
+});
+
+export const seo = createSkillFactory({
+  name: 'SEO',
+  icon: 'simple-icons:googlesearchconsole',
+  iconColor: '#458CF5',
+  url: 'https://developers.google.com/search',
+});
+
+export const docker = createSkillFactory({
+  name: 'Docker',
+  icon: 'simple-icons:docker',
+  iconColor: '#2496ED',
+  url: 'https://www.docker.com/',
+});
+
+export const scss = createSkillFactory({
+  name: 'SCSS',
+  icon: 'simple-icons:sass',
+  iconColor: '#CC6699',
+  url: 'https://sass-lang.com/',
+});
+
+export const web3 = createSkillFactory({
+  name: 'Web3',
+  icon: 'simple-icons:web3dotjs',
+  iconColor: '#F16822',
+  url: 'https://web3.foundation/',
+});
+
+export const dataStructures = createSkillFactory({
+  name: 'Data Structures & Algorithms',
+  icon: 'simple-icons:codeforces', // No specific icon for data structures; using a general coding icon
+  iconColor: '#1F8ACB',
+  url: 'https://en.wikipedia.org/wiki/Data_structure', // No official site, linking to a reliable source
+});
+
+export const aiMl = createSkillFactory({
+  name: 'AI/ML',
+  icon: 'simple-icons:tensorflow', // Common AI/ML framework icon
+  iconColor: '#FF6F00',
+  url: 'https://www.tensorflow.org/',
+});
