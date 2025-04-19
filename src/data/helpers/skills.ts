@@ -303,3 +303,10 @@ export const aiMl = createSkillFactory({
   iconColor: '#FF6F00',
   url: 'https://www.tensorflow.org/',
 });
+
+export const bootstrap = createSkillFactory({
+  name: 'Bootstrap',
+  icon: 'simple-icons:bootstrap',
+  iconColor: '#FF6F00',
+  url: 'https://getbootstrap.com/',
+});

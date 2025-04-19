@@ -14,6 +14,7 @@ import {
   postgreSql,
   reactQuery,
   python,
+  bootstrap,
 } from '../helpers/skills';
 
 const portfolioSectionData = {
@@ -45,7 +46,7 @@ const portfolioSectionData = {
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), typescript(), nodeJs(), expressJs(), mongoDb()],
+        tags: [react(), typescript(), nodeJs(), expressJs(), mongoDb(), tailwindCss()],
       },
       links: [
         website({ url: 'https://email-sequence-frontend.vercel.app' }),
@@ -161,7 +162,7 @@ const portfolioSectionData = {
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), javascript()],
+        tags: [react(), javascript(), bootstrap()],
       },
       links: [
         website({ url: 'vivs-rickandmorty-wiki.netlify.app' }),
