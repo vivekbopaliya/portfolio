@@ -31,7 +31,7 @@ const portfolioSectionData = {
     {
       name: 'Cold Emails Automation',
       image: import('@/assets/portfolio/project-4.jpeg'),
-      dates: [new Date('2023-10'), new Date('2024-02')],
+      dates: [new Date('2025-04'), new Date('2025-04')],
       details: [{ label: 'Category', value: ['SaaS'] }],
       pdfDetails: [{ label: 'Repository', value: 'https://email-sequence-frontend.vercel.app' }],
       description: `
@@ -52,36 +52,11 @@ const portfolioSectionData = {
         github({ url: 'https://github.com/vivekbopaliya/email-sequence-frontend' }),
       ],
     },
-    {
-      name: 'Chat-PDF',
-      image: import('@/assets/portfolio/chat-pdf-logo.png'),
-      dates: [new Date('2023-06'), new Date('2023-09')],
-      details: [{ label: 'Category', value: ['AI Tool'] }],
-      pdfDetails: [
-        { label: 'Website', value: 'https://vivek-chatpdf.vercel.app/', url: 'https://chat-pdf.yourdomain.app' },
-      ],
-      description: `
-        An app to ask questions about PDF documents and get quick answers.
 
-        - Upload any PDF to start exploring.
-        - Ask questions in plain language and get replies with sources.
-        - Move through long documents with an easy interface.
-
-        Splits documents into parts and uses embeddings for fast, accurate answers.
-      `,
-      tagsList: {
-        title: 'Technologies',
-        tags: [react(), python(), llmModels(), tailwindCss()],
-      },
-      links: [
-        website({ url: 'https://vivek-chatpdf.vercel.app/' }),
-        github({ url: 'https://github.com/vivekbopaliya/chat-pdf-client' }),
-      ],
-    },
     {
       name: 'File Manager',
       image: import('@/assets/portfolio/file-manager-logo.png'),
-      dates: [new Date('2023-08'), new Date('2024-01')],
+      dates: [new Date('2024-05'), new Date('2024-05')],
       details: [
         { label: 'My role', value: ['Full Stack Developer'] },
         { label: 'Category', value: ['Web App', 'File Management'] },
@@ -107,38 +82,36 @@ const portfolioSectionData = {
       ],
     },
     {
-      name: 'Rick and Morty Wiki',
-      image: import('@/assets/portfolio/rick-and-morty-logo.jpg'),
-      dates: [new Date('2022-09'), new Date('2022-11')],
-      details: [{ label: 'Category', value: ['API Integration'] }],
+      name: 'Chat-PDF',
+      image: import('@/assets/portfolio/chat-pdf-logo.png'),
+      dates: [new Date('2024-03'), new Date('2024-04')],
+      details: [{ label: 'Category', value: ['AI Tool'] }],
       pdfDetails: [
-        {
-          label: 'Demo',
-          value: 'vivs-rickandmorty-wiki.netlify.app',
-          url: 'vivs-rickandmorty-wiki.netlify.app',
-        },
+        { label: 'Website', value: 'https://vivek-chatpdf.vercel.app/', url: 'https://chat-pdf.yourdomain.app' },
       ],
       description: `
-        A wiki for fans to explore Rick and Morty characters and episodes.
+        An app to ask questions about PDF documents and get quick answers.
 
-        - Browse characters, locations, and episodes with filters.
-        - Works well on both desktop and mobile screens.
+        - Upload any PDF to start exploring.
+        - Ask questions in plain language and get replies with sources.
+        - Move through long documents with an easy interface.
 
-        Pulls data from APIs quickly for a smooth browsing experience.
+        Splits documents into parts and uses embeddings for fast, accurate answers.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), javascript()],
+        tags: [react(), python(), llmModels(), tailwindCss()],
       },
       links: [
-        website({ url: 'vivs-rickandmorty-wiki.netlify.app' }),
-        github({ url: 'https://github.com/vivekbopaliya/Rick-Morty-wiki' }),
+        website({ url: 'https://vivek-chatpdf.vercel.app/' }),
+        github({ url: 'https://github.com/vivekbopaliya/chat-pdf-client' }),
       ],
     },
+
     {
       name: 'Twitter Clone',
       image: import('@/assets/portfolio/twitter-clone-logo.png'),
-      dates: [new Date('2022-06'), new Date('2022-08')],
+      dates: [new Date('2023-06'), new Date('2023-07')],
       details: [{ label: 'Category', value: ['Web app', 'Social Media'] }],
       pdfDetails: [
         {
@@ -164,6 +137,35 @@ const portfolioSectionData = {
       links: [
         website({ url: 'vivs-youonit-client.onrender.com' }),
         github({ url: 'https://github.com/vivekbopaliya/TwitterClone-client' }),
+      ],
+    },
+    {
+      name: 'Rick and Morty Wiki',
+      image: import('@/assets/portfolio/rick-and-morty-logo.jpg'),
+      dates: [new Date('2023-4'), new Date('2023-5')],
+      details: [{ label: 'Category', value: ['API Integration'] }],
+      pdfDetails: [
+        {
+          label: 'Demo',
+          value: 'vivs-rickandmorty-wiki.netlify.app',
+          url: 'vivs-rickandmorty-wiki.netlify.app',
+        },
+      ],
+      description: `
+        A wiki for fans to explore Rick and Morty characters and episodes.
+
+        - Browse characters, locations, and episodes with filters.
+        - Works well on both desktop and mobile screens.
+
+        Pulls data from APIs quickly for a smooth browsing experience.
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [react(), javascript()],
+      },
+      links: [
+        website({ url: 'vivs-rickandmorty-wiki.netlify.app' }),
+        github({ url: 'https://github.com/vivekbopaliya/Rick-Morty-wiki' }),
       ],
     },
   ],
