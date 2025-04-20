@@ -26,8 +26,8 @@ const mainSectionData = {
   tags: [{ name: 'Available for Freelance Projects' }, { name: 'Open for Developer Roles' }],
   action: {
     label: 'Download CV',
-    url: '/cv.pdf',
-    downloadedFileName: 'CV-VivekBopaliya.pdf',
+    url: '/VivekBopaliya_CV.pdf',
+    downloadedFileName: 'VivekBopaliya_CV.pdf',
   },
   links: [
     github({ url: 'https://github.com/vivekbopaliya' }),
